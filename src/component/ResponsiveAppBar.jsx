@@ -72,7 +72,7 @@ function ResponsiveAppBar() {
       });
 
       if (result.isConfirmed) {
-        await fetch("https://payment-integration-six.vercel.app/api/v1/logout", {
+        await fetch("https://wear-flare-backend.vercel.app/api/v1/logout", {
           method: "POST",
           credentials: "include",
         });
