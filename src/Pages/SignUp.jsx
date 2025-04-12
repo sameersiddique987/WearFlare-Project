@@ -17,7 +17,7 @@ const SignUp = () => {
     console.log("Sending Data:", { firstname, lastname, email, password });
   
     try {
-        const response = await fetch("https://payment-integration-six.vercel.app/api/v1/register", {
+        const response = await fetch("https://wear-flare-backend.vercel.app/api/v1/register", {
             method: "POST",
             credentials: "include",
             headers: {

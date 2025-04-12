@@ -390,7 +390,7 @@ function SingleUser() {
       };
 
       const response = await axios.post(
-        "https://payment-integration-six.vercel.app/api/v1/checkout",
+        "https://wear-flare-backend.vercel.app/api/v1/checkout",
         { products: [productToCheckout] },
         { withCredentials: false }
       );

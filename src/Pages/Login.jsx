@@ -23,7 +23,7 @@ const inputVal = async (data) => {
   console.log(" Sending Data to Server:", { email, password });
 
   try {
-    const response = await fetch("https://payment-integration-six.vercel.app/api/v1/login", {
+    const response = await fetch("https://wear-flare-backend.vercel.app/api/v1/login", {
       method: "POST",
       credentials: "include",  
       headers: {
