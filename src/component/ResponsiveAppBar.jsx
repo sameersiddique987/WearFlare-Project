@@ -107,7 +107,7 @@ function ResponsiveAppBar() {
           {/* Logo */}
           
 <Box sx={{ flexGrow: 1, display: "flex", justifyContent: { xs: "center", md: "flex-start" }, alignItems: "center" }}>
-  <Logo className="h-10 w-auto" />
+  <Logo  />
 </Box>
 
 

@@ -6,7 +6,7 @@ function Logo() {
   return (
     <div>
 
-    <img className='w-20 ' src={assets} />
+    <img className='w-20' src={assets} />
     
         </div>
   )
