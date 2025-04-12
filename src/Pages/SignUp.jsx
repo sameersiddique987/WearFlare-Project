@@ -134,9 +134,12 @@ const SignUp = () => {
             {errors.password && (<span className="text-red-500 text-sm">This field is required</span>)}
           </div>
 
-          <button type="submit" className="w-full p-2 text-white bg-blue-500 rounded">
-            Sign Up
-          </button>
+          <button 
+              type="submit" 
+              className="w-full px-4 py-2 font-semibold text-white bg-[#166534] rounded-lg hover:bg-[#149e49]  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              SignUp
+            </button>
         </form>
         <Link to='/Login'>
 
