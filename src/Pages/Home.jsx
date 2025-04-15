@@ -334,7 +334,7 @@ function Home() {
 
       <div className="ml-9 text-4xl font-extrabold">
         <i>
-          <span className="text-red-600 flex ">RECOMMENDED</span> FOR YOU
+          <span>RECOMMENDED</span> FOR YOU
         </i>
       </div>
 
