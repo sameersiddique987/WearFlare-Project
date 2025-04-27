@@ -1,5 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import 'swiper/css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import WinterCollection from './Pages/WinterCollection.jsx'
 import Home from './Pages/Home.jsx'
@@ -13,6 +14,7 @@ import Cancel from './Pages/Cancel.jsx'
 import Login from './Pages/Login.jsx'
 import SignUp from './Pages/SignUp.jsx'
 import ProtectedRoutes from './component/ProtectedRoutes.jsx'
+
 
 
 
@@ -41,6 +43,7 @@ const router = createBrowserRouter([
       path:"Contact",
       element:<Contact />
     },
+  
     {
       path:"WinterCollection",
       element:<WinterCollection />

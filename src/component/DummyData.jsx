@@ -238,15 +238,7 @@ const dummyData = [
     "description": "Modern slim-fit jeans crafted from durable denim for everyday style.",
     "availableSizes": ["S", "M", "XL", "2XL"]
   },
-  {
-    "id": 27,
-    "image": "https://www.shutterstock.com/image-photo/full-body-photo-pretty-young-260nw-2376257691.jpg",
-    "title": "Women's Flared Pants",
-    "category": "Pants",
-    "price": "28.99",
-    "description": "Chic flared pants with a high-rise waist for a flattering silhouette.",
-    "availableSizes": ["S", "M", "XL", "2XL"]
-  },
+ 
   {
     "id": 28,
     "image": "https://media.istockphoto.com/id/1357323248/photo/man-on-a-gray-background-is-warmly-dressed-in-a-black-down-jacket.jpg?s=612x612&w=0&k=20&c=rVGoyy8uK8jIFjHxSsvMjUp0E-nh6zCP8d8SXzpMxT0=",
