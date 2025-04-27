@@ -106,24 +106,21 @@ function Home() {
 
 
 
-      <div className="ml-28 text-4xl font-extrabold">
+      <div className="ml-64 text-4xl font-extrabold">
         <i>
           <span>RECOMMENDED</span> FOR YOU
         </i>
       </div>
 
-      
-      {/* <div className="px-10 flex flex-wrap justify-center mt-5">
-          <BannerSection />
-      </div>  */}
+ 
 {/* Banner Section */}
-<div className="px-4 md:px-10 flex flex-wrap justify-center mt-5">
+<div className=" bg-black px-4 md:px-10 flex flex-wrap justify-center mt-5">
   <BannerSection />
 </div>
 
 
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-5 mx-auto mt-8">
+<div className=" container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-5 mx-auto mt-8">
   {filteredData.map((item) => (
     <div key={item.id} className="flex justify-center">
       <MediaCard
