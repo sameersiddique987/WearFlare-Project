@@ -225,7 +225,7 @@ const UserIcon = () => (
   <AccountCircleIcon sx={{ fontSize: 20, color: "white", mr: 1 }} />
 );
 
-const pages = ['Home', 'SummerCollection', 'WinterCollection', 'Contact'];
+const pages = ['Home', 'NewArrivals', 'SummerCollection', 'WinterCollection'];
 
 function ResponsiveAppBar() {
   const navigate = useNavigate();

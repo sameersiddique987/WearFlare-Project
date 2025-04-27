@@ -3,7 +3,7 @@ import Footer from '../component/Footer';
 import MediaCard from '../component/Card';
 import { useNavigate } from 'react-router-dom';
 
-function SummerCollection() {
+function NewArrivals() {
   const [render, setRender] = useState([]);
 const navigate = useNavigate();
 
@@ -145,6 +145,7 @@ const navigate = useNavigate();
   );
 }
 
-export default SummerCollection;
+export default NewArrivals;
+
 
 

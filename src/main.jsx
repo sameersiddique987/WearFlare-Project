@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import WinterCollection from './Pages/WinterCollection.jsx'
 import Home from './Pages/Home.jsx'
 import SummerCollection from './Pages/SummerCollection.jsx'
-import Contact from './Pages/Contact.jsx'
 import SingleUser from './Pages/SingleUser.jsx'
 import Layout from './Layout.jsx'
 import AddToCart from './Pages/AddToCart.jsx'
@@ -14,6 +13,7 @@ import Cancel from './Pages/Cancel.jsx'
 import Login from './Pages/Login.jsx'
 import SignUp from './Pages/SignUp.jsx'
 import ProtectedRoutes from './component/ProtectedRoutes.jsx'
+import NewArrivals from './Pages/NewArrivals.jsx';
 
 
 
@@ -40,8 +40,8 @@ const router = createBrowserRouter([
       element:<SummerCollection />
     },
     {
-      path:"Contact",
-      element:<Contact />
+      path:"newarrivals",
+      element:<NewArrivals />
     },
   
     {

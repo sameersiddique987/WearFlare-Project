@@ -177,6 +177,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios';
 import Swal from "sweetalert2";
 import dummyData from '../component/DummyData';
+import ProductTabs from '../component/Tabs';
 
 function SingleUser() {
   const [data, setData] = useState(null);
@@ -317,6 +318,7 @@ function SingleUser() {
             selectedSize={selectedSize}
             setSelectedSize={setSelectedSize}
           />
+          
         ) : (
           <div className='mt-28 pb-20'>
             <div role="status">
@@ -328,6 +330,7 @@ function SingleUser() {
             </div>
           </div>
         )}
+      <ProductTabs />
       </div>
       <Footer />
     </>

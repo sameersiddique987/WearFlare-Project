@@ -92,6 +92,45 @@ const navigate = useNavigate();
   
   return (
     <>
+
+<div className="flex justify-center items-center py-8">
+  <h1 className="text-3xl md:text-4xl font-bold text-gray-800 uppercase tracking-wide">
+    Winter Collection
+  </h1>
+</div>
+
+
+<div className="w-full overflow-hidden whitespace-nowrap bg-black text-white py-2 relative">
+  <div className="flex animate-marquee">
+    {/* First Set */}
+    <div className="flex space-x-10">
+      <span className="text-2xl font-semibold">
+        Elevate Your Style with Wearflare’s Latest Arrivals!
+      </span>
+      <span className="text-2xl font-semibold">
+        Elevate Your Style with Wearflare’s Latest Arrivals!
+      </span>
+      <span className="text-2xl font-semibold">
+        Elevate Your Style with Wearflare’s Latest Arrivals!
+      </span>
+    </div>
+
+    {/* Second Set (Duplicate for smooth scroll) */}
+    <div className="flex space-x-20 ml-20">
+      <span className="text-2xl font-semibold">
+        Elevate Your Style with Wearflare’s Latest Arrivals!
+      </span>
+      <span className="text-2xl font-semibold">
+        Elevate Your Style with Wearflare’s Latest Arrivals!
+      </span>
+      <span className="text-2xl font-semibold">
+        Elevate Your Style with Wearflare’s Latest Arrivals!
+      </span>
+    </div>
+  </div>
+</div>
+
+
       <div className="flex flex-wrap justify-center gap-4 p-4">
         {render.map((data) => (
           <MediaCard
